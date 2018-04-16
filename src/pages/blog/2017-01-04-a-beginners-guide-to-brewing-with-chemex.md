@@ -1,24 +1,23 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: Great and Good Article
 date: 2017-01-04T15:04:10.000Z
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+description: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare
+  magna ac lacinia sollicitudin. Vestibulum quam nisl, varius eu orci a,
+  imperdiet pharetra dolor. Vestibulum a tempor lectus, vel molestie ligula
 ---
-![chemex](/img/chemex.jpg)
+![billboard](/img/billboard.png)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit purus vel arcu cursus lacinia. Curabitur et accumsan purus. Morbi ac suscipit nulla. Cras gravida sem ac justo pellentesque, ac accumsan nunc fermentum. Quisque dignissim est ex, at vulputate ipsum consequat eu. Donec vehicula erat non blandit finibus. Cras at fermentum odio. Maecenas a ultricies sapien. Aliquam in erat quam. Vivamus lacinia nibh ut mattis euismod.
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+Etiam ultrices nisl at metus congue elementum. Nulla at mattis est. Pellentesque commodo imperdiet pretium. Phasellus fringilla in mi ac varius. In hac habitasse platea dictumst. Phasellus luctus blandit erat, eget tristique odio sodales eget. Cras vel neque dictum, posuere neque id, eleifend est. Mauris tempor, dui nec hendrerit malesuada, nulla arcu tempus purus, eu faucibus eros est sed est. Nulla ullamcorper aliquet justo. Aenean sit amet erat elit. Duis placerat eget erat in aliquam. Nulla facilisi. Suspendisse aliquet nisi eu massa placerat maximus.
 
-## The little secrets of Chemex brewing
+Phasellus dignissim aliquam ultrices. Morbi pretium nisl a quam iaculis, sit amet efficitur erat egestas. Sed tempor venenatis dolor ac porta. Integer odio nunc, iaculis non mattis at, egestas eget dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar accumsan diam, in vestibulum nisl elementum in. Suspendisse placerat neque et sodales mattis. Vestibulum urna justo, bibendum eget tortor at, convallis tincidunt dui. Mauris in mauris nec ante condimentum dignissim. Nunc vel interdum dui, eu bibendum leo.
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+## Fake Subtitle, Hope You Enjoy
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+Donec consequat eros consectetur vulputate ornare. Curabitur pharetra tellus nec ligula pharetra malesuada at ac ipsum. Vivamus imperdiet pretium nulla non rutrum. Cras dictum ornare augue, ut vestibulum est efficitur quis. Integer semper nibh massa, id ullamcorper tellus tincidunt sit amet. Integer volutpat, arcu scelerisque lacinia feugiat, leo enim lacinia arcu, et elementum est tellus at quam. Sed hendrerit eleifend purus pretium mattis. Sed pharetra in dui et pretium.
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+Proin molestie egestas metus vitae bibendum. Cras pretium risus in risus vehicula, sed facilisis purus commodo. Vivamus eget est diam. Nunc varius eros in aliquet aliquam. Praesent cursus rutrum tellus vitae dictum. Curabitur ut egestas turpis, ac hendrerit nulla. In id nisi quis justo tincidunt viverra. Praesent est justo, eleifend at consectetur id, pellentesque eu nulla. Pellentesque mollis ante id dolor sodales iaculis et consequat velit. Aliquam luctus ultricies eros sed porta. Donec ornare feugiat diam, eu congue purus facilisis pharetra. Fusce quis velit et nunc ultricies aliquam. Etiam a neque vel odio lacinia mattis ac eu nunc. Vestibulum orci nunc, porttitor vel fermentum vitae, facilisis ut quam. Pellentesque bibendum nibh nec neque dignissim, sit amet venenatis diam semper.
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
