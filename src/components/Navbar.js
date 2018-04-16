@@ -1,41 +1,42 @@
 import React from 'react'
+import styled from "styled-components"
 import Link from 'gatsby-link'
+import Logo from '../img/Logo';
 
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+const Nav = styled.nav`
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px black;
+`
+
+const Item = styled(Link)`
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+
+  &:hover {
+    background: blue;
+    color: white;
+
+    svg {
+      stroke: white;
+    }
+  }
+`
 
 const Navbar = () => (
-  <nav className="navbar is-transparent">
-    <div className="container">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item">
-          <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+  <Nav>
+      <div>
+        <Item to="/">
+          <figure>
+            <Logo />
           </figure>
-        </Link>
+        </Item>
       </div>
-      <div className="navbar-start">
-        <Link className="navbar-item" to="/about">
-          About
-        </Link>
-        <Link className="navbar-item" to="/products">
-          Products
-        </Link>
-      </div>
-      <div className="navbar-end">
-        <a
-          className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="icon">
-            <img src={github} alt="Github" />
-          </span>
-        </a>
-      </div>
-    </div>
-  </nav>
+  </Nav>
 )
 
 export default Navbar

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Romana BT";
+  src: url("./romana-bt.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Romana BT Bold";
+  src: url("./romana-bt-bold.woff") format("woff");
+}

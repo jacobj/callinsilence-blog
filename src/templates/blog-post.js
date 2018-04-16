@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Content, { HTMLContent } from '../components/Content'
+import Heading from '../components/Heading';
 
 export const BlogPostTemplate = ({
   content,
@@ -17,9 +18,9 @@ export const BlogPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            <Heading>
               {title}
-            </h1>
+            </Heading>
             <p>{description}</p>
             <PostContent content={content} />
           </div>
