@@ -1,123 +1,65 @@
-import React from "react";
-import styled, {injectGlobal} from "styled-components";
-import Link from "gatsby-link";
-import "../fonts/fonts.css";
-import Heading from "../components/Heading";
+import React from "react"
+import styled, { injectGlobal } from "styled-components"
+import Link from "gatsby-link"
+import "../fonts/fonts.css"
+import Heading from "../components/Heading"
+import LogoCircle from "../img/logo_circle.png"
 
 injectGlobal`
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+
   * {
-    font-family: Times New Roman;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Romana BT Bold';
+    font-family: 'lunchtype24expanded_regular';
   }
 `
 
-const KeepReading = styled(Link)`
-  font-family: Times New Roman;
-  font-size: 12px;
-  color: black;
-  border-radius: 0px;
-  padding: 5px 10px;
-  border: solid 1px black;
-`;
+const Logo = styled.img.attrs({
+  src: LogoCircle
+})`
+  width: 70%;
+  max-width: 350px;
+  height: auto;
+  -webkit-filter: drop-shadow(0px 0px 8px white);
+  margin-bottom: 12px;
+  filter: drop-shadow(0px 0px 8px white);
+`
 
-const Title = styled.div`
-  background-color: blue;
-  padding: 20px;
-  font-family: Times New Roman;
-  margin-bottom: 10px;
+const Container = styled.section`
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
+  min-height: 100vh;
 `
 
-const TitleLink = styled(Link)`
-  font-family: 'Romana BT Bold';
-  font-size: 2em;
+const Bold = styled.span`
+  font-family: "lunchtype24expanded_medium";
+`
+
+const Text = styled.p`
   color: white;
-
-  &:hover {
-    background-color: blue;
-    color: white;
-  }
-`
-
-const PostContainer = styled.div`
-  width: 50%;
-
-  @media(max-width: 700px) {
-    width: 100%; 
-  }
-
-  border: solid 1px black;
-`
-
-const PostFooter = styled.div`
+  max-width: 600px;
+  width: 100%;
   padding: 20px;
+  text-align: justify;
+  font-size: 36px;
+  text-shadow: 0px 0px 8px white;
 `
-
-const Paragraph = styled.p`
-  font-family: Times New Roman;
-`
-
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
-    console.log(posts)
-
     return (
-      <section className="section">
-        <div className="container">
-          <div className="content">
-            <Heading>Newest</Heading>
-          </div>
-          {posts
-            .filter(post => post.node.frontmatter.templateKey === "blog-post")
-            .map(({ node: post }) => (
-              <PostContainer
-                key={post.id}
-              >
-                <Title>
-                  <TitleLink to={post.fields.slug}>
-                    {post.frontmatter.title}
-                  </TitleLink>
-                </Title>
-                <PostFooter>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <KeepReading to={post.fields.slug}>
-                    Keep Reading →
-                  </KeepReading>
-                </PostFooter>
-              </PostContainer>
-            ))}
-        </div>
-      </section>
-    );
+      <Container>
+        <Logo/>
+        <Text>
+          <Bold>CALL IN SILENCE</Bold> IS AN{" "}
+          <Bold>UPCOMING DIGITAL MUSIC AND MEDIA ZINE</Bold> BY{" "}
+          <Bold>WIPEYADOCSOFF</Bold> AND COMPANY.
+        </Text>
+      </Container>
+    )
   }
 }
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-          }
-        }
-      }
-    }
-  }
-`;

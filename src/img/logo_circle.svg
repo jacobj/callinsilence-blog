@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M61,122 C94.6893697,122 122,94.6893697 122,61 C122,27.3106303 94.6893697,0 61,0 C27.3106303,0 0,27.3106303 0,61 C0,94.6893697 27.3106303,122 61,122 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="124" height="124">
+            <rect x="-1" y="-1" width="124" height="124" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)">
+            <use id="Oval" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="8,8" transform="translate(61.000000, 61.000000) rotate(-180.000000) translate(-61.000000, -61.000000) " xlink:href="#path-1"></use>
+            <text id="SILENCE" font-family="Lunchtype-ExpandedMedium, Lunchtype24" font-size="24" font-style="expanded" font-weight="500" letter-spacing="34.9000015" fill="#FFFFFF">
+                <tspan x="5" y="81">SILENCE</tspan>
+            </text>
+            <circle id="Oval-2" transform="translate(60.413967, 59.413967) rotate(138.000000) translate(-60.413967, -59.413967) " cx="60.4139665" cy="59.4139665" r="31"></circle>
+            <text id="CALL" font-family="Lunchtype-ExpandedMedium, Lunchtype24" font-size="24" font-style="expanded" font-weight="500" letter-spacing="33.2000008" fill="#FFFFFF">
+                <tspan x="34" y="104">CALL</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
