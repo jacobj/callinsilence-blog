@@ -21,10 +21,10 @@ const Logo = styled.img.attrs({
   src: LogoCircle
 })`
   width: 70%;
-  max-width: 350px;
+  max-width: 300px;
   height: auto;
   -webkit-filter: drop-shadow(0px 0px 8px white);
-  margin-bottom: 12px;
+  margin: 32px 0 12px;
   filter: drop-shadow(0px 0px 8px white);
 `
 
